@@ -23,14 +23,16 @@ public class Destroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
-        }
+        if (this.gameObject.transform.position.z <= unitychan.transform.position.z)
+            Destroy(this.gameObject);
+
+    }
     void OnBecameInvisible()
     {
-        Destroy(this.gameObject);
+
     }
 
 }
-   
+
 
 
