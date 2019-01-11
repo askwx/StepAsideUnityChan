@@ -62,9 +62,7 @@ public class ItemGenerator : MonoBehaviour
                 }
             }
         }
-    void OnBecameVisible()
-    {
-        Destroy(this.gameObject);
-    }
+    //かメラの座標が必要　GameObject.Find→ゲームオブジェクトにつける
+
 
 }
